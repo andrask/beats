@@ -27,5 +27,30 @@
         "source.address": "127.0.0.1",
         "source.ip": "127.0.0.1",
         "source.port": 40962
-    }
+    },
+    {
+        "haproxy": {
+          "backend_queue": 0,
+          "server_name": "dbserver",
+          "total_waiting_time_ms": 1,
+          "termination_state": "--",
+          "connection_wait_time_ms": 0,
+          "backend_name": "db-backend",
+          "request_date": "09/Oct/2019:08:07:18.805",
+          "frontend_name": "db-backend",
+          "server_queue": 0,
+          "bytes_read": 35289526,
+          "connections": {
+            "retries": 0,
+            "server": 45,
+            "active": 45,
+            "backend": 45,
+            "frontend": 45
+          }
+        },
+        "source": {
+          "port": 53454,
+          "address": "127.0.0.1"
+        }
+      }
 ]
